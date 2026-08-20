@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+.span-coral {
+    color: coral;
+}
+
+
+/* section 1 */
+
+.section1 {
+    height: 300px;
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+        url("../images/BIG CITY.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.section1-div1 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 40px 5%;
+    color: white;
+}
+
+.section1-div2 {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 55px 8%;
+}
+
+.section1-div1 h1 {
+    font-size: 24px;
+}
+
+.section1-div1 hr {
+    width: 12%;
+    margin: 15px 0;
+    border: none;
+    border-top: 3px solid white;
+}
+
+.section1-div1 p {
+    font-size: 10px;
+    line-height: 15px;
+    width: 80%;
+}
+
+.button1 {
+    margin-top: 15px;
+    padding: 8px 18px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.form1 {
+    width: 100%;
+    background-color: white;
+}
+
+.form1 h2 {
+    padding: 12px;
+    background-color: rgb(165, 165, 165);
+    color: black;
+    text-align: center;
+    font-size: 13px;
+}
+
+.form1 h2 span {
+    color: coral;
+}
+
+.inputDiv {
+    padding: 15px;
+}
+
+.form1 input {
+    display: block;
+    width: 90%;
+    margin: 0 auto 15px auto;
+    border: none;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    padding: 5px;
+}
+
+.form1 button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: coral;
+    color: white;
+}
+
+
+/* section 2 */
+
+.section2 {
+    height: 55px;
+    border-bottom: 1px solid black;
+}
+
+.section2div1 {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 5%;
+}
+
+.section2div1 h3 {
+    font-size: 14px;
+}
+
+.section2div1 p {
+    color: rgb(165, 165, 165);
+    font-size: 8px;
+}
+
+.section2div2 {
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px 0;
+    text-align: center;
+}
+
+.section2div2 i {
+    margin: 0 18px;
+    font-size: 25px;
+    color: rgb(190, 190, 190);
+}
+
+
+/* section 3 */
+
+.section3 {
+    height: 300px;
+    background-color: lightgray;
+}
+
+.sec3div1 {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 70px;
+}
+
+.sec3div2 {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 70px 30px;
+}
+
+.sec3div3 {
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 90px;
+}
+
+.special-par {
+    width: 55%;
+    height: 55px;
+    margin-left: 20%;
+    padding-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid white;
+    font-size: 10px;
+}
+
+.sec3div2 h2 {
+    font-size: 15px;
+}
+
+.sec3div2 p {
+    margin-top: 15px;
+    color: rgb(130, 130, 130);
+    font-size: 9px;
+    line-height: 13px;
+}
+
+.coral-button {
+    margin-top: 15px;
+    padding: 8px 15px;
+    background-color: coral;
+    color: white;
+    border: none;
+}
+
+
+/* image */
+
+.container {
+    width: 170px;
+}
+
+.photo {
+    width: 170px;
+    display: block;
+}
+
+.reflection {
+    width: 170px;
+    display: block;
+    transform: scaleY(-1);
+    opacity: 0.25;
+}
